@@ -17,6 +17,7 @@ function App() {
             up with a family computer which I experimented with and looked to try new and different things with it and
             continue this trend of experimenting with computers and technology to this day. I work hard to solve the
             technology based issues that I come across and work hard to get the tasks completed.</p>
+          <hr />
           <h3>Education</h3>
           <p><b>Ball State University</b></p>
           <p>August 2017 - May 2021 (Expected)</p>
