@@ -2,19 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4013e17d-0f3c-4b9d-9985-f1d81c010043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/edu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/projects.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,7 +89,8 @@
       <workItem from="1568726282595" duration="1119000" />
       <workItem from="1568727548041" duration="3099000" />
       <workItem from="1568732888515" duration="131000" />
-      <workItem from="1568733273476" duration="5991000" />
+      <workItem from="1568733273476" duration="6598000" />
+      <workItem from="1568764778932" duration="1995000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Update">
       <created>1568729557454</created>
