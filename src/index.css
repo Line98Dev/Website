@@ -33,7 +33,7 @@ main {
     padding-left: 15%;
     display: grid;
     grid-template-columns: .5fr 1fr;
-    grid-gap: .25em;
+    grid-gap: 2em;
     padding-right: 15%;
 }
 
