@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4013e17d-0f3c-4b9d-9985-f1d81c010043" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/certs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="4013e17d-0f3c-4b9d-9985-f1d81c010043" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +90,7 @@
       <workItem from="1568764778932" duration="1995000" />
       <workItem from="1569336651309" duration="3828000" />
       <workItem from="1569341323330" duration="473000" />
-      <workItem from="1569369022235" duration="1750000" />
+      <workItem from="1569369022235" duration="2171000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Update">
       <created>1568729557454</created>
