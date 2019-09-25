@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4013e17d-0f3c-4b9d-9985-f1d81c010043" name="Default Changelist" comment="" />
+    <list default="true" id="4013e17d-0f3c-4b9d-9985-f1d81c010043" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/_redirects" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -90,7 +95,7 @@
       <workItem from="1568764778932" duration="1995000" />
       <workItem from="1569336651309" duration="3828000" />
       <workItem from="1569341323330" duration="473000" />
-      <workItem from="1569369022235" duration="2171000" />
+      <workItem from="1569369022235" duration="4680000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Update">
       <created>1568729557454</created>

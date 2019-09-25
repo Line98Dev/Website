@@ -1,0 +1,8 @@
+# These rules will change if you change your site’s custom domains or HTTPS settings
+
+# Redirect domain aliases to primary domain
+https://tline.dev/* https://hunter.tline.dev/:splat 301!
+https://www.tline.dev/* https://hunter.tline.dev/:splat 301!
+
+# Optional: Redirect default Netlify subdomain to primary domain
+https://hunterline.netlify.com/* https://hunter.tline.dev/:splat 301!
