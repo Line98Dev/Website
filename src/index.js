@@ -8,28 +8,32 @@ import {Contact} from "./components/contact";
 import {Projects} from "./components/projects";
 import {WorkHistory} from "./components/work";
 import {Education} from "./components/edu";
+import Copyright from "./components/footer";
 
 ReactDOM.render(
     <div>
         <Namebar/>
-        <main>
-            <section className="Sidebar">
+        <div className={"body"}>
+            <aside>
                 <h2>Hunter Line</h2>
                 <h3>Junior Software Developer & Student</h3>
                 <img src="https://via.placeholder.com/350x300" alt=""/>
                 <About/>
                 <hr/>
+                {/*<Certs/>*/}
+                {/*<hr/>*/}
                 <Contact/>
                 <hr/>
-            </section>
-            <section>
+            </aside>
+            <main>
                 <Projects/>
                 <hr/>
                 <WorkHistory/>
                 <hr/>
                 <Education/>
-            </section>
-        </main>
+            </main>
+        </div>
+        <Copyright/>
     </div>,
     document.getElementById('root')
 );

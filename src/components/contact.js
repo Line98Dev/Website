@@ -1,6 +1,6 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import { faGithub, faStackOverflow, faLinkedinIn, faTwitter } from '@fortawesome/free-brands-svg-icons'
+import {faGithub, faStackOverflow, faLinkedinIn, faTwitter, faMediumM} from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons'
 
 
@@ -15,6 +15,7 @@ export function Contact() {
                 <a href="https://www.linkedin.com/in/hunter-line-870860145/" title="LinkedIn"><FontAwesomeIcon icon={faLinkedinIn}/></a>
                 <a href="mailto:hunter@tline.dev" title="Email"><FontAwesomeIcon icon={faEnvelope}/></a>
                 <a href="https://twitter.com/hunter8line" title="Twitter"><FontAwesomeIcon icon={faTwitter}/></a>
+                <a href="https://medium.com/@huntertline" title="Medium"><FontAwesomeIcon icon={faMediumM}/></a>
             </div>
         </div>
     )

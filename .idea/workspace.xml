@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4013e17d-0f3c-4b9d-9985-f1d81c010043" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/certs.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/about.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/about.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/contact.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/contact.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/edu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/edu.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/projects.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/projects.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/work.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/work.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -100,7 +94,9 @@
       <workItem from="1568732888515" duration="131000" />
       <workItem from="1568733273476" duration="6598000" />
       <workItem from="1568764778932" duration="1995000" />
-      <workItem from="1569336651309" duration="3271000" />
+      <workItem from="1569336651309" duration="3828000" />
+      <workItem from="1569341323330" duration="473000" />
+      <workItem from="1569369022235" duration="1750000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Update">
       <created>1568729557454</created>
