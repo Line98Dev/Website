@@ -9,6 +9,7 @@ import {Projects} from "./components/projects";
 import {WorkHistory} from "./components/work";
 import {Education} from "./components/edu";
 import Copyright from "./components/footer";
+import Profile from "./images/website.jpg";
 
 ReactDOM.render(
     <div>
@@ -17,7 +18,7 @@ ReactDOM.render(
             <aside>
                 <h2>Hunter Line</h2>
                 <h3>Junior Software Developer & Student</h3>
-                <img src="https://via.placeholder.com/350x300" alt=""/>
+                <img src={Profile} width="350px" alt=""/>
                 <About/>
                 <hr/>
                 {/*<Certs/>*/}

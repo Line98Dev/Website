@@ -22,19 +22,38 @@ a:hover {
     text-decoration: none;
 }
 
+@media (max-width: 500px) {
+    header {
+        padding-left: 10%;
+    }
+
+    .body {
+        padding-left: 7%;
+        padding-right: 7%;
+    }
+}
+
+@media (min-width: 500px) {
+    header {
+        padding-left: 20%;
+    }
+
+    .body {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
 header {
     background-color: dodgerblue;
     color: white;
     font-size: 4em;
-    padding-left: 20%;
 }
 
 .body {
-    padding-left: 15%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, max-content));
     grid-gap: 2em;
-    padding-right: 15%;
 }
 
 aside {
