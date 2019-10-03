@@ -9,7 +9,7 @@ import {Projects} from "./components/projects";
 import {WorkHistory} from "./components/work";
 import {Education} from "./components/edu";
 import Copyright from "./components/footer";
-import Profile from "./images/website.jpg";
+import Profile from "./images/website.webp";
 
 ReactDOM.render(
     <div>
