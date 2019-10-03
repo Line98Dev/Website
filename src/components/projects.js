@@ -6,7 +6,7 @@ export function Projects(){
             <h2>Past Projects</h2>
             <h3><a href="https://hunter.tline.dev">This Website</a></h3>
             <ul>
-                <li>This website is created with React, hosted with AWS Amplify, DNS handled by Cloudflare.</li>
+                <li>This website is created with React, hosted with Netlify, DNS handled by Cloudflare.</li>
                 <li>The goal of this site is to learn new technologies.</li>
             </ul>
             <h3><a href="https://heyya.app">Hey Ya!</a></h3>
