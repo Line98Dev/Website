@@ -18,7 +18,7 @@
       "sizes": "512x512"
     }	    
   ],
-  "start_url": ".",
+  "start_url": "https://hunter.tline.dev/",
   "display": "standalone",
   "theme_color": "#1e90ff",
   "background_color": "#333"
