@@ -1,17 +1,17 @@
 import React from 'react';
 import '../App.css';
-import {ListGroup} from "react-bootstrap";
+import {Button, ListGroup} from "react-bootstrap";
 
 function Contact() {
     return (
         <div>
-            <p><span className={"h1"}>Contact Me</span> <span className={"h3"}>@line98dev</span></p>
+            <h2>Contact Me</h2>
+            <p className={"lead"}>@line98dev</p>
             <ListGroup variant="flush">
-                <ListGroup.Item>@Line98Dev</ListGroup.Item>
-                <ListGroup.Item>Github</ListGroup.Item>
-                <ListGroup.Item>LinkedIn</ListGroup.Item>
-                <ListGroup.Item>Email</ListGroup.Item>
-                <ListGroup.Item>Twitter</ListGroup.Item>
+                <ListGroup.Item><Button href="https://github.com/Line98Dev" block>GitHub</Button></ListGroup.Item>
+                <ListGroup.Item><Button href="https://www.linkedin.com/in/line98dev/" block>LinkedIn</Button></ListGroup.Item>
+                <ListGroup.Item><Button href="mailto:hunter@line98.dev?subject=Website Contact" block>Email me</Button></ListGroup.Item>
+                <ListGroup.Item><Button href="https://twitter.com/line98dev" block>Twitter</Button></ListGroup.Item>
                 {/*<ListGroup.Item>Stack Overflow</ListGroup.Item>*/}
                 {/*<ListGroup.Item>Medium</ListGroup.Item>*/}
             </ListGroup>

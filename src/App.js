@@ -4,6 +4,8 @@ import './App.css';
 import {Container, Tab, Tabs} from "react-bootstrap";
 import About from "./components/About";
 import Contact from "./components/Contact";
+import Education from "./components/Education";
+import Projects from "./components/Projects";
 
 function App() {
     return (
@@ -26,10 +28,10 @@ function App() {
                             <About/>
                         </Tab>
                         <Tab eventKey="education" title="Education">
-                            Educational information
+                            <Education/>
                         </Tab>
                         <Tab eventKey="projects" title="Projects">
-                            What I've done
+                            <Projects/>
                         </Tab>
                         <Tab eventKey="contact" title="Contact">
                             <Contact/>
