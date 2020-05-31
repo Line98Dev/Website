@@ -1,5 +1,5 @@
 import React from 'react';
-import picture from '../picture.jpg'
+import picture from '../images/picture.jpg'
 import '../App.css';
 import {Image} from "react-bootstrap";
 
