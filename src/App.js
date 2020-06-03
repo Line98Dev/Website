@@ -33,8 +33,8 @@ function App() {
             </nav>
             <main>
                 <Container>
-                    <h1>Hunter Line</h1>
-                    <h3>Junior Developer</h3>
+                    <h2>Hunter Line</h2>
+                    <h4>Junior Developer</h4>
                     <Router history={""}>
                         <Nav justify variant="tabs">
                             <Nav.Item>
