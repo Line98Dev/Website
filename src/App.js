@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import logo from './images/logo.webp';
 import qrcode from './images/qrcode.svg'
 import './App.css';
-import {Button, Container, Image, Modal, Nav} from "react-bootstrap";
+import {Button, Container, Image, Modal, Nav, Navbar} from "react-bootstrap";
 import {BrowserRouter as Router, NavLink, Redirect, Route, Switch} from "react-router-dom";
 import {Reply} from 'react-bootstrap-icons';
 import About from "./components/About";
@@ -18,19 +18,19 @@ function App() {
 
     return (
         <div>
-            <nav className="navbar navbar-dark bg-hunter mb-2">
+            <Navbar bg="hunter" variant="dark">
                 <Container>
-                    <span className="navbar-brand">
-                    <img src={logo} width="30" height="30"
-                         className="d-inline-block align-top" alt="" loading="lazy"/>
-                    Hunter Line
-                    </span>
+                    <Navbar.Brand href="/" className={"mr-auto"}>
+                        <img src={logo} width="30" height="30"
+                             className="d-inline-block align-top" alt="" loading="lazy"/>
+                        Hunter Line
+                    </Navbar.Brand>
                     <Button variant="outline-light" onClick={handleShow} style={{alignSelf: 'center', display: 'flex'}}>
                         <Reply size={24}/> Share this
                     </Button>
-
                 </Container>
-            </nav>
+            </Navbar>
+
             <main>
                 <Container>
                     <h2>Hunter Line</h2>
@@ -38,16 +38,16 @@ function App() {
                     <Router history={""}>
                         <Nav justify variant="tabs">
                             <Nav.Item>
-                                <Nav.Link as={NavLink} activeClassName='active' to={"/about"}>About</Nav.Link>
+                                <Nav.Link as={NavLink} activeClassName='active disabled' to={"/about"}>About</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link as={NavLink} activeClassName='active' to={"/education"}>Education</Nav.Link>
+                                <Nav.Link as={NavLink} activeClassName='active disabled' to={"/education"}>Education</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link as={NavLink} activeClassName='active' to={"/projects"}>Projects</Nav.Link>
+                                <Nav.Link as={NavLink} activeClassName='active disabled' to={"/projects"}>Projects</Nav.Link>
                             </Nav.Item>
                             <Nav.Item>
-                                <Nav.Link as={NavLink} activeClassName='active' to={"/contact"}>Contact</Nav.Link>
+                                <Nav.Link as={NavLink} activeClassName='active disabled' to={"/contact"}>Contact</Nav.Link>
                             </Nav.Item>
                         </Nav>
 

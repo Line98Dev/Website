@@ -34,8 +34,8 @@ function Education() {
                             CompTIA PenTest+. These are all future plans with wanting to complete them before
                             graduation.
                         </Card.Text>
-                        <Card.Link href="#"
-                                   className={"d-block d-md-inline"}>To be utilized</Card.Link>
+                        <Card.Link href="#" variant={"hunter"}
+                                   className={"text-hunter d-block d-md-inline"}>To be utilized</Card.Link>
                     </Card.Body>
                 </Card>
             </CardDeck>
