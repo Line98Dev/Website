@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import logo from './images/logo.png';
+import logo from './images/logo.webp';
 import qrcode from './images/qrcode.svg'
 import './App.css';
 import {Button, Container, Image, Modal, Nav} from "react-bootstrap";
