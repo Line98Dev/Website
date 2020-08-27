@@ -6,7 +6,7 @@ import {Button, Container, Image, Modal, Nav, Navbar} from "react-bootstrap";
 import {BrowserRouter as Router, NavLink, Redirect, Route, Switch} from "react-router-dom";
 import {Reply} from 'react-bootstrap-icons';
 import About from "./components/About";
-import Education from "./components/Education";
+import EduExp from "./components/EduExp";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 
@@ -56,7 +56,7 @@ function App() {
                                 <About/>
                             </Route>
                             <Route path={"/education"}>
-                                <Education/>
+                                <EduExp/>
                             </Route>
                             <Route path={"/projects"}>
                                 <Projects/>

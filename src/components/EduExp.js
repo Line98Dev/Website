@@ -3,14 +3,14 @@ import '../App.css';
 import Card from "react-bootstrap/Card";
 import {CardDeck} from "react-bootstrap";
 
-function Education() {
+function EduExp() {
     return (
         <div>
-            <h2>Education</h2>
+            <h2>Education & Experience</h2>
             <CardDeck>
-                <Card border="danger">
-                    <Card.Body>
-                        <Card.Title className={"text-danger"}>Ball State University</Card.Title>
+                <Card border="danger" className={"p-0"}>
+                    <Card.Body className={"py-1 py-md-2"}>
+                        <Card.Title className={"text-danger py-0 my-0"}>Ball State University</Card.Title>
                         <Card.Text>
                             While working towards getting a Bachelor's in Science degree with a major in computer
                             science
@@ -26,16 +26,18 @@ function Education() {
                             className={"text-danger d-md-inline ml-0 ml-md-4"}>Computer Technology Minor</Card.Link>
                     </Card.Body>
                 </Card>
-                <Card>
-                    <Card.Body>
-                        <Card.Title>CompTIA Certifications</Card.Title>
+                <Card border="danger" className={"p-0"}>
+                    <Card.Body className={"py-1 py-md-2"}>
+                        <Card.Title className={"text-danger py-0 my-0"}>Unified Technology Support</Card.Title>
+                        <Card.Subtitle className={"text-muted"}>@ Ball State University</Card.Subtitle>
                         <Card.Text>
-                            I am currently planning on getting CompTIA Security+, CompTIA CySA+, CompTIA CASP+, and
-                            CompTIA PenTest+. These are all future plans with wanting to complete them before
-                            graduation.
+                            While working on my degree. I was employed by Unified Technology Support providing general
+                            tech support over the phone and then working on desktop support. During my time providing
+                            desktop support to the campus, I created many internal use tools and websites to assist.
                         </Card.Text>
-                        <Card.Link href="#" variant={"hunter"}
-                                   className={"text-hunter d-block d-md-inline"}>To be utilized</Card.Link>
+                        <Card.Link
+                            href="https://www.bsu.edu/about/administrativeoffices/uts"
+                            className={"text-danger d-block d-md-inline"}>Unified Technology Support</Card.Link>
                     </Card.Body>
                 </Card>
             </CardDeck>
@@ -44,4 +46,4 @@ function Education() {
     );
 }
 
-export default Education;
+export default EduExp;
