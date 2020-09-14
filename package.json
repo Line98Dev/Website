@@ -37,6 +37,7 @@
     ]
   },
   "devDependencies": {
+    "@icons-pack/react-simple-icons": "^3.10.0",
     "react-bootstrap-icons": "^1.0.2-alpha4"
   }
 }

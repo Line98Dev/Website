@@ -41,7 +41,6 @@ function EduExp() {
                     </Card.Body>
                 </Card>
             </CardDeck>
-
         </div>
     );
 }
