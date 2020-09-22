@@ -11,13 +11,12 @@ function Contact() {
         <div>
             <h2>Contact Me</h2>
             <Row>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={4}>
                     <p className={"lead"}>@line98dev</p>
-                    <p>While I don't actively post, I am responsive on all platforms.</p>
                     <img src={logo} alt={""} width={"100%"} className={"d-none d-md-block"}/>
                 </Col>
-                <Col xs={12} md={6}>
-
+                <Col xs={12} md={8}>
+                    <p>While I don't actively post, I am responsive on all platforms.</p>
                     <ListGroup variant="flush">
                         <ListGroup.Item>
                             <Button variant={"hunter"} href="https://github.com/Line98Dev" block>

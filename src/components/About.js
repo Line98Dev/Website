@@ -8,10 +8,10 @@ function About() {
         <div>
             <h2>About Me</h2>
             <Row>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={4}>
                     <Image src={picture} alt="" roundedCircle fluid className={"shadow"}/>
                 </Col>
-                <Col xs={12} md={6}>
+                <Col xs={12} md={8}>
                     <p>I am from Fort Wayne, Indiana. Currently a senior computer science major at Ball State
                         University. I'm looking to get into information security and planning on getting certifications
                         before
