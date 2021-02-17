@@ -9,14 +9,12 @@ function EduExp() {
             <h2>Education & Experience</h2>
             <CardDeck>
                 <Card border="danger" className={"p-0"}>
-                    <Card.Body className={"py-1 py-md-2"}>
-                        <Card.Title className={"text-danger py-0 my-0"}>Ball State University</Card.Title>
+                    <Card.Body>
+                        <Card.Title className={"text-danger"}>Ball State University</Card.Title>
                         <Card.Text>
                             While working towards getting a Bachelor's in Science degree with a major in computer
-                            science
-                            and a minor in computer technology. During my time at Ball State I worked in the Ball State
-                            Tech
-                            Center providing technology based support to the campus community.
+                            science and a minor in computer technology. During my time at Ball State I worked a few
+                            finished projects like HeyYa! and Zooom Producer.
                         </Card.Text>
                         <Card.Link
                             href="https://www.bsu.edu/academics/collegesanddepartments/computer-science/academic-programs/majors/computer-science"
@@ -27,8 +25,8 @@ function EduExp() {
                     </Card.Body>
                 </Card>
                 <Card border="danger" className={"p-0"}>
-                    <Card.Body className={"py-1 py-md-2"}>
-                        <Card.Title className={"text-danger py-0 my-0"}>Unified Technology Support</Card.Title>
+                    <Card.Body>
+                        <Card.Title className={"text-danger"}>Unified Technology Support</Card.Title>
                         <Card.Subtitle className={"text-muted"}>@ Ball State University</Card.Subtitle>
                         <Card.Text>
                             While working on my degree. I was employed by Unified Technology Support providing general

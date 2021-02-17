@@ -8,7 +8,7 @@ import About from "./components/About";
 import EduExp from "./components/EduExp";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
-import useDarkMode from 'use-dark-mode';
+// import useDarkMode from 'use-dark-mode';
 import './App.css';
 
 
@@ -18,7 +18,7 @@ function App() {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
 
-    const darkMode = useDarkMode(true);
+    // const darkMode = useDarkMode(true);
 
     return (
         <div>
@@ -36,14 +36,14 @@ function App() {
                              className="d-inline-block align-top" alt="" loading="lazy"/>
                         Hunter Line
                     </Navbar.Brand>
-                    <Button className={"m-1 selected"} variant="outline-light"
-                            onClick={darkMode.toggle} style={{alignSelf: 'center', display: 'flex'}}>
-                        {darkMode.value ?
-                            <Sun size={24}/>
-                            :
-                            <Moon size={24}/>
-                        }
-                    </Button>
+                    {/*<Button className={"m-1 selected"} variant="outline-light"*/}
+                    {/*        onClick={darkMode.toggle} style={{alignSelf: 'center', display: 'flex'}}>*/}
+                    {/*    {darkMode.value ?*/}
+                    {/*        <Sun size={24}/>*/}
+                    {/*        :*/}
+                    {/*        <Moon size={24}/>*/}
+                    {/*    }*/}
+                    {/*</Button>*/}
                     <Button className={"m-1"} variant="outline-light" onClick={handleShow}
                             style={{alignSelf: 'center', display: 'flex'}}>
                         <Reply size={24}/> Share this
@@ -51,8 +51,8 @@ function App() {
                 </Container>
             </Navbar>
 
-            <main>
-                <Container>
+            <main className={"p-0"}>
+                <Container fluid={"sm"}>
                     <h2>Hunter Line</h2>
                     <h4>Junior Developer</h4>
                     <Router history={""}>

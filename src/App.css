@@ -1,11 +1,31 @@
-.dark-mode {
-    background-color: #333;
-    color: white;
-}
-.card.dark-mode {
-    background-color: #333
+.center {
+  text-align: center;
 }
 
-.list-group-item.dark-mode {
-    background-color: #333
+header {
+    background-color: #1e90ff;
+    color: white;
+    font-size: 4em;
+    padding-left: 20%;
 }
+
+body {
+    background-color: #333;
+  color: white;
+    font-family: Consolas, sans-serif;
+}
+
+main {
+    padding-left: 15%;
+    display: grid;
+    grid-template-columns: .5fr 1fr;
+    grid-gap: 10px;
+    padding-right: 15%;
+}
+
+.sidebar {
+    grid-column: 1;
+    grid-row: 1 / 3;
+}
+
+

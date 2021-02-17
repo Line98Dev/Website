@@ -12,9 +12,8 @@ function About() {
                     <Image src={picture} alt="" roundedCircle fluid className={"shadow"}/>
                 </Col>
                 <Col xs={12} md={8}>
-                    <p>I am from Fort Wayne, Indiana. Currently a senior computer science major at Ball State
-                        University. I'm looking to get into information security and planning on getting certifications
-                        before
+                    <p>I am from Fort Wayne, Indiana. Currently a senior computer science major and computer technology
+                        minor at Ball State University. I'm looking to get into application or website development after
                         graduation. I work hard to solve the technology based issues that I come across and work
                         hard to get the tasks completed.</p>
                 </Col>
