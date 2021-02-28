@@ -14,8 +14,8 @@ function Projects() {
                         <Card.Text>
                             This website has been created multiple times and multiple iterations each time tweaking the
                             design to accomplish a different goal. The goal of the current iteration is to design a
-                            mobile first layout that does not scroll. This was good to optimize space while making
-                            simple to use.
+                            mobile first layout that does not scroll. This website was created with React.js and hosted
+                            on Netlify.
                         </Card.Text>
                         <Card.Link
                             href="https://line98.dev"
@@ -29,7 +29,7 @@ function Projects() {
                         <Card.Text>
                             HeyYa! is my first project that I was apart of that was to think of and create a new
                             application. It is an instant messaging application to send messages to your friends in real
-                            time. It was created with React and is hosted on Google Firebase.
+                            time. It was created with React.js and is hosted on Google Firebase.
                         </Card.Text>
                         <Card.Link
                             href="https://chat.heyya.app"
@@ -42,7 +42,8 @@ function Projects() {
                         <Card.Title className={"text-success"}>Zooom Producer</Card.Title>
                         <Card.Subtitle className={"text-muted"}>@ Ball State University</Card.Subtitle>
                         <Card.Text>
-                            Zooom Producer is a Xamarin application for Windows (UWP), MacOS, Android, and iOS which
+                            Zooom Producer is a Xamarin.Forms application for Windows (UWP), MacOS, Android, and iOS
+                            which
                             allows sports officials to organize, clip, and upload playlists of sporting events for the
                             purposes of training to their <a className={"text-success"} href={"https://zooomapp.com/"}>Zooom
                             App</a> account. This greatly reduced server costs as trimming videos is now local as well
